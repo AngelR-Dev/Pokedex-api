@@ -1,0 +1,32 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.pokedex-span {
+  color: #FE1936;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.pokedex-p {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.pokedex__input-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pokedex__input {
+  justify-content: center;
+}
