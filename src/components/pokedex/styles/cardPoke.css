@@ -22,7 +22,7 @@
 
 .card-poke {
   width: 261px;
-  max-height: 400px;
+  max-height: 420px;
   border-radius: 8px;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -40,6 +40,10 @@
   z-index: 2;
   margin: 0 auto;
   padding-top: 30px;
+}
+
+.card-poke__body {
+  height: fit-content;
 }
 
 .card-poke__bg {

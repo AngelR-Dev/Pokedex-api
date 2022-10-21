@@ -20,7 +20,7 @@ const SelectByType = ({setTypeSelected, setPage}) => {
 
   return (
     <select className="select-container" onChange={handleChange}>
-      <option value="All Pokemons">All Pokemons</option>
+      <option className="select-container-box" value="All Pokemons">All Pokemons</option>
       {
         types?.map(type => (
           <option key={type.url} value={type.url}>{type.name}</option>

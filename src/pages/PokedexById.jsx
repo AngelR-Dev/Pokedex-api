@@ -76,7 +76,7 @@ const PokedexById = () => {
         </div>
       </div>
       <div className="pokeid__box">
-        <h2>Stats</h2>
+        <h2 className="pokeid__h2">Stats</h2>
         <div className="progress__stats">
           <span>HP: </span>
           <span>{pokemon?.stats[0].base_stat}/150</span>
