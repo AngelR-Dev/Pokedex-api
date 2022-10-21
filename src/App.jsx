@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
-import Pokedex from './Pages/Pokedex'
-import PokedexById from './Pages/PokedexById'
+import Pokedex from './pages/Pokedex'
+import PokedexById from './pages/PokedexById'
 import ProtectedRoutes from './pages/ProtectedRoutes'
 
 function App() {
