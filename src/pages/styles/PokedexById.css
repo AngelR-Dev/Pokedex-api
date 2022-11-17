@@ -232,6 +232,12 @@
   gap: 15px;
   padding: 3px;
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 375px)
+{
+
 }
 
 /* bg type color */

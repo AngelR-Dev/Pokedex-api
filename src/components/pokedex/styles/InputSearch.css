@@ -43,3 +43,12 @@
   line-height: 29px;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
 }
+
+@media (max-width: 375px)
+{
+  .input__btn,
+  .input__search
+  {
+    font-size: 1.1em;
+  }
+}

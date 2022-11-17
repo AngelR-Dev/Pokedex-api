@@ -33,3 +33,11 @@
 .pokedex__input {
   justify-content: center;
 }
+
+@media (max-width: 375px)
+{
+  .pokedex__search
+  {
+    font-size: .8em;
+  }
+}
